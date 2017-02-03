@@ -1,4 +1,4 @@
-package alexander.fuks.businessaccounting;
+package io.github.kungfux.businessaccounting;
 
 import org.junit.Test;
 

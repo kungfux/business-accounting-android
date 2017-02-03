@@ -1,4 +1,4 @@
-package alexander.fuks.businessaccounting;
+package io.github.kungfux.businessaccounting;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("alexander.fuks.businessaccounting", appContext.getPackageName());
+        assertEquals("io.github.kungfux.businessaccounting", appContext.getPackageName());
     }
 }
