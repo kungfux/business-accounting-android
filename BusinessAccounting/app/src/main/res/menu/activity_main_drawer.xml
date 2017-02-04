@@ -4,42 +4,45 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_transactions"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_transactions"
             android:title="Transactions" />
         <item
             android:id="@+id/nav_charts"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_menu_charts"
             android:title="Charts" />
-        <item
-            android:id="@+id/nav_sync"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Sync" />
     </group>
 
-    <item android:title="Lists">
+    <item android:title="Collections">
         <menu>
             <item
-                android:id="@+id/nav_positions"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Positions" />
-            <item
                 android:id="@+id/nav_contacts"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_menu_contacts"
                 android:title="Contacts" />
             <item
+                android:id="@+id/nav_positions"
+                android:icon="@drawable/ic_menu_positions"
+                android:title="Positions" />
+            <item
                 android:id="@+id/nav_documents"
+                android:icon="@drawable/ic_menu_documents"
                 android:title="Documents" />
             <item
                 android:id="@+id/nav_properties"
+                android:icon="@drawable/ic_menu_properties"
                 android:title="Properties" />
             <item
                 android:id="@+id/nav_expenditures"
+                android:icon="@drawable/ic_menu_expenditures"
                 android:title="Expenditures" />
         </menu>
     </item>
 
     <item android:title="Settings">
         <menu>
+            <item
+                android:id="@+id/nav_sync"
+                android:icon="@drawable/ic_menu_sync"
+                android:title="Sync" />
             <item
                 android:id="@+id/nav_settings"
                 android:icon="@drawable/ic_menu_manage"
