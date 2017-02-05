@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Business Accounting</string>
+    <string name="app_tagline">Accounting is the key to success!</string>
+
+    <string name="not_implemented">This is not implemented yet.</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
