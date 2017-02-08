@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_transactions"
-            android:icon="@drawable/ic_menu_transactions"
-            android:title="Transactions" />
-        <item
-            android:id="@+id/nav_charts"
-            android:icon="@drawable/ic_menu_charts"
-            android:title="Charts" />
-    </group>
+    <item android:title="GENERAL">
+        <menu>
+            <item
+                android:id="@+id/nav_transactions"
+                android:icon="@drawable/ic_menu_transactions"
+                android:title="Transactions" />
+            <item
+                android:id="@+id/nav_charts"
+                android:icon="@drawable/ic_menu_charts"
+                android:title="Charts" />
+        </menu>
+    </item>
 
-    <item android:title="Collections">
+    <item android:title="COLLECTIONS">
         <menu>
             <item
                 android:id="@+id/nav_contacts"
@@ -37,7 +39,7 @@
         </menu>
     </item>
 
-    <item android:title="Settings">
+    <item android:title="EXTRA">
         <menu>
             <item
                 android:id="@+id/nav_sync"
