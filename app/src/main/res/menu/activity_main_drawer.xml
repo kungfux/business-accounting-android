@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="GENERAL">
+    <item android:title="@string/ic_menu_topic_general">
         <menu>
             <item
                 android:id="@+id/nav_transactions"
                 android:icon="@drawable/ic_menu_transactions"
-                android:title="Transactions" />
+                android:title="@string/ic_menu_transactions" />
             <item
                 android:id="@+id/nav_charts"
                 android:icon="@drawable/ic_menu_charts"
-                android:title="Charts" />
+                android:title="@string/ic_menu_charts" />
         </menu>
     </item>
 
-    <item android:title="COLLECTIONS">
+    <item android:title="@string/ic_menu_topic_collections">
         <menu>
             <item
                 android:id="@+id/nav_contacts"
                 android:icon="@drawable/ic_menu_contacts"
-                android:title="Contacts" />
+                android:title="@string/ic_menu_contacts" />
             <item
                 android:id="@+id/nav_positions"
                 android:icon="@drawable/ic_menu_positions"
-                android:title="Positions" />
+                android:title="@string/ic_menu_positions" />
             <item
                 android:id="@+id/nav_documents"
                 android:icon="@drawable/ic_menu_documents"
-                android:title="Documents" />
+                android:title="@string/ic_menu_documents" />
             <item
                 android:id="@+id/nav_properties"
                 android:icon="@drawable/ic_menu_properties"
-                android:title="Properties" />
+                android:title="@string/ic_menu_properties" />
             <item
                 android:id="@+id/nav_expenditures"
                 android:icon="@drawable/ic_menu_expenditures"
-                android:title="Expenditures" />
+                android:title="@string/ic_menu_expenditures" />
         </menu>
     </item>
 
-    <item android:title="EXTRA">
+    <item android:title="@string/ic_menu_topic_extra">
         <menu>
             <item
                 android:id="@+id/nav_sync"
                 android:icon="@drawable/ic_menu_sync"
-                android:title="Sync" />
+                android:title="@string/ic_menu_sync" />
             <item
                 android:id="@+id/nav_settings"
                 android:icon="@drawable/ic_menu_manage"
-                android:title="Settings" />
+                android:title="@string/ic_menu_settings" />
         </menu>
     </item>
 

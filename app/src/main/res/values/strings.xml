@@ -1,11 +1,25 @@
 <resources>
+    <!-- Common things -->
     <string name="app_name">Business Accounting</string>
     <string name="app_tagline">Accounting is the key to success!</string>
 
-    <string name="not_implemented">This is not implemented yet.</string>
+    <!-- Sidebar menu items -->
+    <string name="ic_menu_topic_general">GENERAL</string>
+    <string name="ic_menu_topic_collections">COLLECTIONS</string>
+    <string name="ic_menu_topic_extra">EXTRA</string>
 
+    <string name="ic_menu_transactions">Transactions</string>
+    <string name="ic_menu_charts">Charts</string>
+    <string name="ic_menu_contacts">Contacts</string>
+    <string name="ic_menu_positions">Positions</string>
+    <string name="ic_menu_documents">Documents</string>
+    <string name="ic_menu_properties">Properties</string>
+    <string name="ic_menu_expenditures">Expenditures</string>
+    <string name="ic_menu_sync">Sync</string>
+    <string name="ic_menu_settings">Settings</string>
+
+    <!-- Java references -->
+    <string name="not_implemented">Wow! You pressed it!\nUnfortunately, this button is doing nothing so far :(</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
-    <string name="action_settings">Settings</string>
 </resources>
