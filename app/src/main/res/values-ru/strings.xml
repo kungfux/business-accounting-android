@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common things -->
+    <string name="app_name">Business Accounting</string>
+    <string name="app_tagline">Учет - это ключ к успеху!</string>
+
+    <!-- Sidebar menu items -->
+    <string name="ic_menu_topic_general">ОБШИЕ</string>
+    <string name="ic_menu_topic_collections">КОЛЛЕКЦИИ</string>
+    <string name="ic_menu_topic_extra">ДОПОЛНИТЕЛЬНО</string>
+
+    <string name="ic_menu_transactions">Транзакции</string>
+    <string name="ic_menu_charts">Графики</string>
+    <string name="ic_menu_contacts">Контакты</string>
+    <string name="ic_menu_positions">Должности</string>
+    <string name="ic_menu_documents">Документы</string>
+    <string name="ic_menu_properties">Собственность</string>
+    <string name="ic_menu_expenditures">Статьи расходов</string>
+    <string name="ic_menu_sync">Синхронизация</string>
+    <string name="ic_menu_settings">Настройки</string>
+
+    <string name="not_implemented">Ух ты! Та нажал это!\nК сожалению, эта кнопка пока ничего не делает :(</string>
+</resources>

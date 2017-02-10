@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/ic_menu_topic_general">
+        <menu>
+            <item
+                android:id="@+id/nav_transactions"
+                android:icon="@drawable/ic_menu_transactions"
+                android:title="@string/ic_menu_transactions" />
+            <item
+                android:id="@+id/nav_charts"
+                android:icon="@drawable/ic_menu_charts"
+                android:title="@string/ic_menu_charts" />
+        </menu>
+    </item>
+
+    <item android:title="@string/ic_menu_topic_collections">
+        <menu>
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@drawable/ic_menu_contacts"
+                android:title="@string/ic_menu_contacts" />
+            <item
+                android:id="@+id/nav_positions"
+                android:icon="@drawable/ic_menu_positions"
+                android:title="@string/ic_menu_positions" />
+            <item
+                android:id="@+id/nav_documents"
+                android:icon="@drawable/ic_menu_documents"
+                android:title="@string/ic_menu_documents" />
+            <item
+                android:id="@+id/nav_properties"
+                android:icon="@drawable/ic_menu_properties"
+                android:title="@string/ic_menu_properties" />
+            <item
+                android:id="@+id/nav_expenditures"
+                android:icon="@drawable/ic_menu_expenditures"
+                android:title="@string/ic_menu_expenditures" />
+        </menu>
+    </item>
+
+    <item android:title="@string/ic_menu_topic_extra">
+        <menu>
+            <item
+                android:id="@+id/nav_sync"
+                android:icon="@drawable/ic_menu_sync"
+                android:title="@string/ic_menu_sync" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/ic_menu_settings" />
+        </menu>
+    </item>
+
+</menu>
